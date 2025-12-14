@@ -5,7 +5,7 @@ import express from "express";
 
 import cors from "cors";
 
-import { db } from "./dbConnection.js";
+// import { db } from "./dbConnection.js";
 
 const app = express();
 
