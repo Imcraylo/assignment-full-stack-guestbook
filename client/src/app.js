@@ -1,3 +1,5 @@
+console.log("TECH PRIEST! APPEASE THE MACHINE SPIRIT");
+
 //TODO: collect users' data and send to the server
 
 //submit event to collect users' data
