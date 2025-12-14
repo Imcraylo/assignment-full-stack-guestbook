@@ -1,6 +1,11 @@
 //TODO: setup a server
 
 //imports
+import express from "express";
+
+import cors from "cors";
+
+import { db } from "./dbConnection";
 
 //configs
 
