@@ -13,14 +13,16 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+//port
 const PORT = 8080;
 app.listen(PORT, () => {
   console.info(`Server is running in port ${PORT}`);
 });
 
-//port
-
 //root route
+app.get("/", (req, res) => {
+  res.json({ message: "FOR THE EMPEROR!" });
+});
 
 //========================================================================
 
